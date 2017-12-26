@@ -10,12 +10,12 @@ typedef struct node
 
 typedef struct queue
 {
-	struct node *stack1;
-	struct node *stack2;
+	struct node *stack1; //head pointer value of stcak number 1
+	struct node *stack2; //head pointer value of stack number 2
 }Queue;
 
 int size=0;
-void enqueue(Queue *,int);
+void enqueue(Queue *,int); 
 void dequeue(Queue *);
 void push(node **,int);
 int  pop(node **);
